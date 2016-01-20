@@ -1,7 +1,6 @@
 /*
 A Preview Image Carousel:
-User are able to take a list of a links and view the images in a preview
-element. 
+User are able to take a list of a links and view the images in a preview. 
 
 Updates:
 - Thumbnail List in preview overlay
@@ -152,19 +151,3 @@ var Preview = (function() {
 	}// Close END	
 
 })();
-
-/*
-
-Congratulations on completing the project!
-
-This is the kind of project you keep. I find it helps, at the completion of a project, to copy the project into a code library folder. In that way, if you need similar functionality in another project, you have a frame of reference. 
-
-This is also why commenting is important. It serves as a sort of instruction manual for later. You might consider creating a comment region at the top with a list of functions and a description of each. Your work was well-commented, for the most part, but the function collectImgs() was a little sparse in terms of documentation.
-
-You made good use of IIFE and the module pattern. You've encapsulated the functionality within an API which protects the script from tampering. I wasn't able to manipulate the script maliciously from the browser console. Another benefit is that the code is well-organized and easier to maintain as it grows.
-
-Good job!
-
--John
-
-*/
